@@ -1,0 +1,13 @@
+names:
+- BOBTAIL
+- TRUCK_CONTAINER
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: bobtail_model
+  url: https://universe.roboflow.com/createdataset-cxjff/bobtail_model/dataset/2
+  version: 2
+  workspace: createdataset-cxjff
+test: ../test/images
+train: Bobtail_model-2/train/images
+val: Bobtail_model-2/valid/images
